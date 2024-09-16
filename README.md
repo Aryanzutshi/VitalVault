@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# VitalVault: Blockchain-Based Secure Health Records Storage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+VitalVault is a cutting-edge blockchain-based platform designed to ensure the secure and encrypted storage of health records. It empowers patients by giving them full control over their data, allowing them to seamlessly grant or revoke access to healthcare providers as needed. 
 
-## Available Scripts
+The platform uses advanced encryption techniques and blockchain technology to maintain the privacy, security, and immutability of health records. VitalVault aims to revolutionize healthcare data management, providing a decentralized, secure, and user-friendly solution to protect sensitive medical information.
 
-In the project directory, you can run:
+### Features
 
-### `npm start`
+- Decentralized Data Storage
+Health records are stored on a decentralized blockchain network, ensuring that no central authority can compromise the data's security.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Patient Data Ownership
+Patients have complete ownership of their health records, with the ability to share or revoke access with healthcare providers or institutions at their discretion.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Secure and Encrypted Storage
+All health records are encrypted using state-of-the-art encryption methods, ensuring that only authorized individuals can access sensitive medical information.
 
-### `npm test`
+- Immutable Records
+Once a record is added to the blockchain, it is immutable, ensuring that health data remains accurate, tamper-proof, and secure.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Seamless Access Control
+Patients can easily manage access to their data through smart contracts, which automate permissions and allow healthcare providers to access records in real-time when authorized.
 
-### `npm run build`
+- Blockchain Transparency
+VitalVault leverages the transparency and traceability of blockchain technology, offering an audit trail for all access and modifications made to health records.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Interoperability with Healthcare Systems
+The platform integrates with existing healthcare systems, allowing providers to securely retrieve patient data while maintaining compliance with data privacy regulations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- MetaMask Integration
+Secure login and authentication for users through MetaMask, enabling easy access and management of health records via web browsers.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Data Privacy Compliance
+VitalVault adheres to global data privacy standards, ensuring compliance with regulations such as GDPR and HIPAA.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To ensure seamless interaction with the VitalVault platform, users should meet the following prerequisites:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- MetaMask Wallet Installation:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        Requirement: Users must have the MetaMask browser extension installed to authenticate and manage transactions on the Ethereum blockchain.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+        Steps:
+            Download and install the MetaMask wallet extension from MetaMask official site.
+            Create an Ethereum wallet or import an existing wallet using a recovery phrase.
 
-## Learn More
+- Basic Knowledge of Blockchain and Cryptography
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+        Requirement: While the platform is designed to be user-friendly, a fundamental understanding of blockchain concepts like wallets, private keys, and transactions will help users manage their health records effectively.
+        Steps:
+            Learn basic blockchain concepts and wallet management through tutorials or educational resources.
+            Familiarize yourself with Ethereum-based transactions and gas fees.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Ethereum (ETH) for Transaction Fees
 
-### Code Splitting
+        Requirement: Users must have a small amount of Ethereum (ETH) in their MetaMask wallet to pay for blockchain transaction fees (gas fees) when granting or revoking access to health records.
+        Steps:
+            Purchase Ethereum through a trusted cryptocurrency exchange.
+            Transfer ETH to the MetaMask wallet.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Device Requirements
 
-### Analyzing the Bundle Size
+        Requirement: The platform supports web browsers with the MetaMask extension. It is compatible with the following:
+            Browsers: Chrome, Firefox, Brave, or Edge (with MetaMask installed).
+            Devices: Desktop or laptop computers are recommended for optimal performance, though mobile compatibility may be supported via MetaMask mobile.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Healthcare Provider’s Enrollment in VitalVault
 
-### Making a Progressive Web App
+        Requirement: To share records with healthcare providers, the provider must be enrolled in the VitalVault system.
+        Steps:
+            Ensure your healthcare provider uses VitalVault for health record management.
+            Send them an invitation or request them to join the platform if they are not yet enrolled.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Internet Connection
+        Requirement: A stable internet connection is necessary to interact with the blockchain, perform transactions, and manage health records.
 
-### Advanced Configuration
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Blockchain Platform:
 
-### Deployment
+- Solidity: Smart contract programming for handling permissions, access control, and secure transactions on the Ethereum blockchain.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Ethereum: The decentralized platform for deploying the VitalVault smart contracts and managing encrypted health records.
 
-### `npm run build` fails to minify
+Development Tools:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Truffle Suite: Framework for writing, testing, and deploying Ethereum smart contracts.
+
+- Ganache: Personal blockchain for rapid development and testing of smart contracts.
+
+Frontend:
+
+- ReactJS: A powerful JavaScript library for building the VitalVault user interface, ensuring a responsive and seamless experience for patients and healthcare providers.
+
+Wallet Integration:
+
+- MetaMask: A web wallet to authenticate and authorize users securely, providing a bridge to interact with the Ethereum blockchain.
+
+## Authors
+
+- [@aryanzutshi](https://github.com/Aryanzutshi)
+
