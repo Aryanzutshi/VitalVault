@@ -72,8 +72,6 @@ To ensure seamless interaction with the VitalVault platform, users should meet t
             Ensure your healthcare provider uses VitalVault for health record management.
             Send them an invitation or request them to join the platform if they are not yet enrolled.
 
-- Internet Connection
-        Requirement: A stable internet connection is necessary to interact with the blockchain, perform transactions, and manage health records.
 
 ## Tech Stack
 
