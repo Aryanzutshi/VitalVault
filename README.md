@@ -85,7 +85,7 @@ Development Tools:
 
 - Truffle Suite: Framework for writing, testing, and deploying Ethereum smart contracts.
 
-- Ganache: Personal blockchain for rapid development and testing of smart contracts.
+- Ganache: Personal blockchain for rapid development and testing of contracts.
 
 Frontend:
 
