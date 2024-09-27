@@ -18,9 +18,6 @@ All health records are encrypted using state-of-the-art encryption methods, ensu
 - Immutable Records
 Once a record is added to the blockchain, it is immutable, ensuring that health data remains accurate, tamper-proof, and secure.
 
-- Seamless Access Control
-Patients can easily manage access to their data through smart contracts, which automate permissions and allow healthcare providers to access records in real-time when authorized.
-
 - Blockchain Transparency
 VitalVault leverages the transparency and traceability of blockchain technology, offering an audit trail for all access and modifications made to health records.
 
