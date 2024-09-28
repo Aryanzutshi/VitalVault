@@ -76,7 +76,7 @@ Blockchain Platform:
 
 - Solidity: Smart contract programming for handling permissions, access control, and secure transactions on the Ethereum blockchain.
 
-- Ethereum: The decentralized platform for deploying the VitalVault smart contracts and managing encrypted health records.
+- Ethereum: The decentralized platform for deploying the VitalVault smart contracts.
 
 Development Tools:
 
