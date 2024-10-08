@@ -15,9 +15,6 @@ Patients have complete ownership of their health records, with the ability to sh
 - Secure and Encrypted Storage
 All health records are encrypted using state-of-the-art encryption methods, ensuring that only authorized individuals can access sensitive medical information.
 
-- Immutable Records
-Once a record is added to the blockchain, it is immutable, ensuring that health data remains accurate, tamper-proof, and secure.
-
 - Blockchain Transparency
 VitalVault leverages the transparency and traceability of blockchain technology, offering an audit trail for all access and modifications made to health records.
 
