@@ -24,9 +24,6 @@ The platform integrates with existing healthcare systems, allowing providers to 
 - MetaMask Integration
 Secure login and authentication for users through MetaMask, enabling easy access and management of health records via web browsers.
 
-- Data Privacy Compliance
-VitalVault adheres to global data privacy standards, ensuring compliance with regulations such as GDPR and HIPAA.
-
 ### Prerequisites
 
 To ensure seamless interaction with the VitalVault platform, users should meet the following prerequisites:
