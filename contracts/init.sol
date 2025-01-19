@@ -6,8 +6,8 @@ contract Identity {
     uint private age;
 
     constructor() public {
-        name = "Laljan";
         age = 24;
+        name = "Laljan";
     }
 
     function getName() public view returns (string memory) {
